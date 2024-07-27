@@ -3,6 +3,7 @@
   "description": "Development Smart-Contract with Hardhat",
   "scripts": {
     "node": "npx hardhat node",
+    "clean": "npx hardhat clean",
     "compile": "npx hardhat compile",
     "coverage": "npx hardhat coverage",
     "deploy:sepolia": "npx hardhat run scripts/deploy.ts --network sepolia",

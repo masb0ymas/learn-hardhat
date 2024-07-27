@@ -1,0 +1,24 @@
+{
+  "name": "learn-hardhat",
+  "description": "Development Smart-Contract with Hardhat",
+  "scripts": {
+    "node": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "coverage": "npx hardhat coverage",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.ts --network sepolia",
+    "verify:sepolia": "npx hardhat verify --network sepolia",
+    "test": "npx hardhat test --parallel"
+  },
+  "author": "masb0ymas <n.fajri@mail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  }
+}

@@ -1,6 +1,7 @@
 {
   "name": "learn-hardhat",
   "description": "Development Smart-Contract with Hardhat",
+  "version": "0.1.0",
   "scripts": {
     "node": "npx hardhat node",
     "clean": "npx hardhat clean",
